@@ -1,0 +1,109 @@
+.card{
+    position: relative;
+    overflow: hidden;
+    background: #151515;
+
+}
+
+
+/* .cards-img{
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    /* background: #151515; */
+    /* overflow: hidden; */
+/* } */
+
+.cards{
+    overflow: hidden;
+        width: 36rem;
+        /* background-color: green; */
+      
+}
+.card::before{
+      content: "";
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  opacity: 1;
+  position: absolute;
+  width: 36rem;
+  height: 100%;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  justify-content: flex-start;
+}
+.card:hover::before{
+    height: 0%;
+}
+
+.projct-des{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    width: 100%;
+    /* z-index: 100; */
+    margin-right: 10px;
+}
+
+.card:hover .projct-des{
+    top: 50%;
+    opacity: 0;
+}
+
+.projct-des h4{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+}
+
+.projct-des span{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+}
+
+.link-icon {
+    display: inline-block;
+    margin-left: 14px;
+}
+.link-icon a {
+    width: 50px;
+    height: 50px;
+    background: whitesmoke;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.link-icon a::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* background-color: black; */
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}
+.link-icon a:hover::before {
+    transform: scale(1);
+}
+.link-icon a img {
+	width: 50%;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+.link-icon a:hover img {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
