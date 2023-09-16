@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/pp.jpg";
 // import { ArrowRightCircle } from "react-bootstrap-icons";
-import { HashLink } from "react-router-hash-link";
-import resume from "../assets/img/SwapnilDocumentAfterPortfolio.pdf";
+// import { HashLink } from "react-router-hash-link";
+import resume from "../assets/img/SwapnilSinghResume-3.pdf";
 // import resume from C:\Users\swapn\Desktop\web-dev-projects-main\src\assets\img\SwapnilDocumentAfterPortfolio.pdf"
 import "animate.css";
 import TrackVisibility from "react-on-screen";
