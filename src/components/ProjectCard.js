@@ -119,6 +119,26 @@ export const ProjectCard = (props) => {
           </li>
         </ul>
       );
+    } else if (name === "Thread App") {
+      return (
+        <ul className="list-disc space-y-4">
+          <li className="tracking-wide">
+            I developed a fully functional thread app using Next.js, TypeScript,
+            React.js, and MongoDB.
+          </li>
+          <li className="tracking-wide">
+            The app enables users to create, share, and engage in threaded
+            discussions. I also designed the user interface using CSS and
+            deployed the application on Vercel.
+          </li>
+          <li className="tracking-wide">
+            This project showcased my proficiency in full-stack web development,
+            front-end design, and deployment, and demonstrated my skills in
+            utilizing modern web technologies to create an interactive and
+            user-friendly platform for online discussions.
+          </li>
+        </ul>
+      );
     }
   };
   return (

@@ -84,13 +84,17 @@ export const Banner = () => {
                     <ul className="space-y-4">
                       <li className="tracking-wide">
                         I invite you to explore my portfolio and witness the
-                        fusion of innovation and functionality. I am a
-                        passionate Full Stack Developer with a strong foundation
-                        in the MERN stack and I leverage the power of CSS
-                        libraries like Tailwind CSS and Chakra UI to create
-                        stunning, user-friendly interfaces. I believe that a
-                        seamless user experience is just as important as
-                        flawless functionality.
+                        fusion of innovation and functionality.I am a skilled
+                        MERN stack developer with a strong foundation in Next.js
+                        and TypeScript. My portfolio showcases my expertise in
+                        building full-stack web applications, from database
+                        design using MongoDB to responsive front-end
+                        development. I have a keen eye for UI/UX design,
+                        utilizing Chakra UI and Tailwind CSS to create visually
+                        appealing and user-friendly interfaces. My projects not
+                        only demonstrate technical prowess but also a deep
+                        understanding of the aesthetics and functionality that
+                        drive exceptional user experiences.
                       </li>
                       <li className="tracking-wide">
                         With a creative mindset and a knack for problem-solving,
